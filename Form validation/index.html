@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Rajib</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <header class="signup-header">
+                <h1>Sign Up</h1>
+            </header>
+            <main class="signup-body">
+                <form action="#">
+                 <p>
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Type Name Here" id="name" >
+                    <i class="fa-sharp fa-solid" id="1"></i>
+                    <span id="nameError"></span>
+                 </p>
+                 <p>
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="xyz@gmail.com" id="email" >
+                    <i class="fa-sharp fa-solid" id="2"></i>
+                    <span id="emailError"></span>
+                 </p>
+                 <p>
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="at least 8 characters" id="password">
+                    <i class="fa-sharp fa-solid" id="3"></i>
+                    <span id="passError"></span>
+                 </p>
+                 <p>
+                    <label for="confirmpassword">Confirm Password</label>
+                    <input type="password" placeholder="Re-enter Password" id="confirmpassword">
+                    <i class="fa-sharp fa-solid" id="4"></i>
+                    <span id="conpassError"></span>
+                 </p>
+                 <p>
+                    <input type="submit" value="Create Account" id="submitBtn">
+                 </p>
+                </form>
+            </main>
+            <footer class="signup-footer">
+                <p>Already have an account? <a style="color: white;" href="">Login</a></p>
+            </footer>
+        </div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+<script src="https://kit.fontawesome.com/57aa121219.js" crossorigin="anonymous"></script>
+</html>
