@@ -29,12 +29,13 @@
 }
 
 .signup-body p{
+    position: relative;
     margin-top: 20px;
 }
  .signup-body p i{
     position: absolute;
-    top: 125px;
-    right: 56px;
+    top: 36px;
+    right: 30px;
     color: #008000;
     font-size: 22px;
 } 
@@ -45,7 +46,7 @@
     color: #008000;
     font-size: 22px;
 } 
-i#1 {
+ i#1 {
     position: absolute;
     top: 125px;
     right: 56px;
@@ -94,4 +95,9 @@ i#2 {
     font-weight: 600;
     margin-top: 20px;
 }
-
+.signup-footer p a{
+    text-decoration: none;
+}
+.signup-footer p a:hover{
+    text-decoration: underline;
+}
